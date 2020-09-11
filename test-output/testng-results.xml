@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="71459" started-at="2020-09-10T23:27:01 IST" finished-at="2020-09-10T23:28:13 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="71459" started-at="2020-09-10T23:27:01 IST" finished-at="2020-09-10T23:28:13 IST">
+      <class name="com.pom.tests.AssessmentTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.pom.tests.AssessmentTest@3c0a50da]" name="before" is-config="true" duration-ms="44610" started-at="2020-09-10T23:27:01 IST" finished-at="2020-09-10T23:27:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="Assesment()[pri:0, instance:com.pom.tests.AssessmentTest@3c0a50da]" name="Assesment" duration-ms="26072" started-at="2020-09-10T23:27:46 IST" finished-at="2020-09-10T23:28:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Assesment -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.pom.tests.AssessmentTest@3c0a50da]" name="after" is-config="true" duration-ms="735" started-at="2020-09-10T23:28:12 IST" finished-at="2020-09-10T23:28:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.pom.tests.AssessmentTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

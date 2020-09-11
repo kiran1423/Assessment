@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.pom.reRunFailedTestcases.AnnotationTransformer"/>
+    <listener class-name="com.pom.ExtentReportListener.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Test_Sanity(failed)">
+    <classes>
+      <class name="com.pom.tests.HomePageTest">
+        <methods>
+          <include name="after"/>
+          <include name="HomepageTitle"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- com.pom.tests.HomePageTest -->
+    </classes>
+  </test> <!-- Test_Sanity(failed) -->
+</suite> <!-- Failed suite [Suite] -->
